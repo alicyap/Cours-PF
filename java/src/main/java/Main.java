@@ -1,5 +1,3 @@
-package org.example;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -7,7 +5,7 @@ import java.util.List;
 import java.util.function.Function;
 
 public class Main {
-    static int score(String word) {
+    public static int score(String word) {
         // score = nombre de lettres - nombre de 'a'
         return word.replaceAll("a", "").length();
     }
@@ -49,7 +47,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("apple", "banana", "cherries", "coconut");
+        List<String> words = Arrays.asList("apple", "banana", "cherries", "coconut", "carrots");
         System.out.println("Liste à l'origine : " + words);
         //words.sort(new org.example.ComparateurMot()); --> pas fonctionel, effet de bord
 

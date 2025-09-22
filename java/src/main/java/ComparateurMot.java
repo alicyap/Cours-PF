@@ -1,6 +1,5 @@
-package org.example;
-
 import java.util.Comparator;
+
 
 public class ComparateurMot implements Comparator {
     @Override
