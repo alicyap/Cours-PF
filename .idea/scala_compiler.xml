@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="TD-PF,TD-PF.main,TD-PF.test,scala,scala.main,scala.test,td-pf_1408,td-pf_1408.main,td-pf_1408.test" />
+  </component>
+</project>
